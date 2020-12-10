@@ -9,9 +9,46 @@ body {
 .cua-nav {
   margin-top: 30px;
   height: 80px;
+  background: #1c2e52 !important;
+  color: white;
+}
+.navbar {
+  padding: 0;
+}
+p.memberNumber {
+  font-weight: bold;
+}
+svg {
+  color: rgb(0, 165, 180);
+}
+.container-fluid {
+  height: 100%;
+  padding: 0;
+}
+.logo {
+  height: 100%;
+  font-size: 50px;
+  width: 224px;
+  background: rgb(0, 165, 180);
+  text-align: center;
+}
+.bottom-text {
+  background: rgb(241, 241, 241);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.bottom-text p {
+  margin: 0;
+}
+.card {
+  background: rgb(252, 252, 252);
 }
 .cua-nav a {
   font-size: 40px;
+}
+.cancel {
+  border: 1px solid;
 }
 
 code {
@@ -20,8 +57,6 @@ code {
 }
 .member {
   width: 100%;
-  background: lightgray;
-  padding: 20px;
 }
 input.form-control.memberInput {
   width: 300px;
@@ -31,4 +66,10 @@ input.form-control.memberInput {
 .cancel,
 .continue {
   border-radius: inherit;
+}
+span.continueText {
+  margin-right: 15px;
+}
+svg.right-arrow {
+  color: black;
 }

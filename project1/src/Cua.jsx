@@ -1,18 +1,14 @@
 import React from "react";
 import { Member } from "./Member";
+import { Nav } from "./Nav";
 
 export const Cua = () => {
   return (
     <div>
       <div className="container">
-        <nav className="navbar navbar-light bg-light cua-nav">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              cua
-            </a>
-          </div>
-        </nav>
         <div className="content">
+          <Nav />
+
           <div className="row">
             <div className="col-2"></div>
             <div className="col-8">
